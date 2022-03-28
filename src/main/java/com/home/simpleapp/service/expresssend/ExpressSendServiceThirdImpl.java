@@ -16,6 +16,6 @@ public class ExpressSendServiceThirdImpl implements ExpressSendService {
 
     @PostConstruct
     void checkBean(){
-        System.out.printf("Я живой, %s", this.getClass());
+        System.out.printf("\n Hello! I'm living, %s\n", this.getClass());
     }
 }
